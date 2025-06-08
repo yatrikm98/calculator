@@ -1,0 +1,131 @@
+.mainCalculatorDiv {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.subpart {
+    display: flex;
+
+}
+
+.subpart1 {
+    margin-bottom: 10px;
+}
+
+.bigDiv {
+    box-sizing: border-box;
+    width: 400px;
+    padding: 5px;
+    height: 100px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.smallDiv {
+    width: 126.66px;
+    /* border: 1px solid black; */
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.smallDiv:hover {
+    background-color: brown;
+}
+
+.commononLowerPart {
+    display: flex;
+}
+
+.commonDiv {
+    width: 126.66px;
+    background-color: white;
+    margin: 5px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.lastDiv {
+    background-color: aqua;
+}
+
+.div1 {
+    margin-left: 0px;
+}
+
+.delete {
+    width: 263.34px;
+    background-color: aqua;
+}
+
+
+
+
+.commonDiv:hover {
+    background-color: lightgray;
+}
+
+.lastDiv:hover,
+.delete:hover {
+    background-color: brown;
+}
+
+@media only screen and (max-width: 600px) {
+    .mainCalculator {
+        max-width: 450px;
+    }
+
+    .smallDiv {
+        /* width: 120.75px; */
+    }
+
+    .bigDiv {
+        /* width: 386px; */
+    }
+
+    .upperPartDiv {
+        max-width: 445px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .mainCalculator {
+        max-width: 100%;
+    }
+
+    .smallDiv {
+        width: 120.75px;
+    }
+
+    .bigDiv {
+        width: 389px;
+    }
+
+    .upperPartDiv {
+        max-width: 100%;
+    }
+
+    .lastDiv {
+        margin-right: 0px;
+    }
+
+}
